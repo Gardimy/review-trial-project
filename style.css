@@ -1,0 +1,47 @@
+header,
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#header-img {
+  width: 400px;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+#sectionVideo {
+  margin: auto;
+  padding-left: 40%;
+}
+
+#nav-bar {
+  width: 300px;
+}
+
+#hero {
+  text-align: center;
+}
+
+body {
+  background-color: gainsboro;
+}
+
+section {
+  margin-left: 20%;
+  padding-top: 20px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  min-height: 75px;
+  padding: 1px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #eee;
+}
